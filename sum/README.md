@@ -16,45 +16,40 @@ Preparar casos de teste que vão exercitar cada: -???
 ```
 ## flow do gráfico só que texto:
 ```
-
-1a bola:  Início
-2a bola: Verificar se o valor inicial é par
-                /          
-3a bola: O valor inicial é par
-4a bola: Iniciar soma
-              5a bola: loop while verifica se valor inicial ultrapasse o valor final 
-                      /                                                          \          
-6a bola: Verificar se o valor inicial ultrapassou o valor final (6.1).           9a bola: retorna valor da soma
-7:  Se não ultrapassou, adicionar o valor inicial à soma.
-8: Incrementar o valor inicial em 2 para obter o próximo número par.
-volta pra 5a bola
-
-
-
-outro caminho: 
-
-2 : verifica se o valor é par
-                       \
-                 10 bola: O valor inicial é ímpar           
-                 11a bola: incrementa para o proximo nr par          
-                  entra na bola de inicia a soma
-                    mesmo resto
-
+1: declara as variáveis e recebe input, goto2
+2: if inicio == par goto3 else goto6
+3: if inicio <= fim goto4 else goto5
+4: adiciona o valor de inicio ao resultado da soma e incrementa a a posição inicio em 2 (próximo par), goto3
+5: retorna o valor da soma, end
+6: incrementa o valor de inicio em 1 (próximo par), goto3
 ```
 
 ## Gráfico de fluxo/controle:
 
-![grafoFluxo](https://github.com/Annagmo/engsoft/assets/85114312/5c23e734-e4d2-4ba2-bc25-d66db8d38b65)
+![grafoFluxo](https://github.com/Annagmo/engsoft/assets/80477294/c9350bea-e989-4838-88b4-0cc370d37ae4)
 
-
-https://app.creately.com/d/t2kRYfQYQIV/edit
+## Complexidade ciclomática:
+```
+V(G) = arestas - nodos + 2
+V(G) =  7 - 6 + 2 = 3
+```
 
 ## Caminhos independentes:
 ```
-Caminho 1: 1-2-11-12
-caminho 2: 3-4-5-9
-caminho 3: 5-6-7-8
+Caminhos independentes
+1, 2, 6, 3 ...
+... 3, 4, ...
+... 3, 5
 ```
-## Complexidade:
 
-![1](https://github.com/Annagmo/engsoft/assets/85114312/f8166c04-7b63-4007-83f9-f592e284a537)
+## Casos de teste:
+```
+Caso de teste 1: começar por impar ( ter ou n par n faz diferença )
+Dados e teste 1: (1, 5)
+
+Caso de teste 2: começar por par e ter mais de 1 par no intervalo
+Dados e teste 2: (12, 17)
+
+Caso de teste 3: começar por par e ter 1 par no intervalo
+Dados e teste 3: (2, 2)
+```
