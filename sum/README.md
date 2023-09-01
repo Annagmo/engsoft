@@ -6,7 +6,7 @@
 ```
 
 Etapas: (do slide)
-Construir o grafo de programa : -
+Construir o grafo de programa : ok
 Determinar a complexidade ciclomática : -??
 Determinar o conjunto de caminhos independentes: 2
 Preparar casos de teste que vão exercitar cada: -???
