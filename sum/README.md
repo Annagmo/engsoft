@@ -45,3 +45,6 @@ outro caminho:
 ## Gráfico de fluxo/controle:
 
 ![grafoFluxo](https://github.com/Annagmo/engsoft/assets/85114312/a5eb8ad2-ae81-43cb-bbd7-f0209daaa7ad)
+
+
+## Caminhos independentes:
