@@ -1,9 +1,9 @@
+
+
+#teste do caminho básico:
+
+
 ```
-
-teste do caminho básico:
-
-
-
 
 Etapas: (do slide)
 Construir o grafo de programa : -
@@ -13,9 +13,9 @@ Preparar casos de teste que vão exercitar cada: -???
 
 
 
-
-flow do gráfico só que texto:
-
+```
+##flow do gráfico só que texto:
+```
 
 1a bola:  Início
 2a bola: Verificar se o valor inicial é par
@@ -41,3 +41,7 @@ outro caminho:
                     mesmo resto
 
 ```
+
+##Gráfico de fluxo/controle:
+
+![grafoFluxo](https://github.com/Annagmo/engsoft/assets/85114312/a5eb8ad2-ae81-43cb-bbd7-f0209daaa7ad)
