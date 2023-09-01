@@ -38,5 +38,6 @@ outro caminho:
                  10 bola: O valor inicial é ímpar           
                  11a bola: incrementa para o proximo nr par          
                   entra na bola de inicia a soma
+                    mesmo resto
 
 ```
