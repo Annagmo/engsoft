@@ -48,3 +48,6 @@ outro caminho:
 
 
 ## Caminhos independentes:
+
+Caminho 1: 1-2-3-4-5-6-7-8-9
+caminho 2: 1-2-11-12-3-4-5-6-7-8-9
