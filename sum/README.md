@@ -45,11 +45,11 @@ Caminhos independentes
 ## Casos de teste:
 ```
 Caso de teste 1: começar por impar ( ter ou n par n faz diferença )
-Dados e teste 1: (1, 5)
+Dados de teste 1: (1, 5)
 
 Caso de teste 2: começar por par e ter mais de 1 par no intervalo
-Dados e teste 2: (12, 17)
+Dados de teste 2: (12, 17)
 
 Caso de teste 3: começar por par e ter 1 par no intervalo
-Dados e teste 3: (2, 2)
+Dados de teste 3: (2, 2)
 ```
