@@ -7,8 +7,8 @@
 
 Etapas: (do slide)
 Construir o grafo de programa : ok
-Determinar a complexidade ciclomática : -??
-Determinar o conjunto de caminhos independentes: 2
+Determinar a complexidade ciclomática : ok
+Determinar o conjunto de caminhos independentes: 3
 Preparar casos de teste que vão exercitar cada: -???
 
 
@@ -54,3 +54,6 @@ https://app.creately.com/d/t2kRYfQYQIV/edit
 Caminho 1: 1-2-3-4-5-6-7-8-9
 caminho 2: 1-2-11-12-3-4-5-6-7-8-9
 ```
+## Complexidade:
+
+![1](https://github.com/Annagmo/engsoft/assets/85114312/f8166c04-7b63-4007-83f9-f592e284a537)
