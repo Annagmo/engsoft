@@ -43,7 +43,10 @@ outro caminho:
 ```
 
 ## Gráfico de fluxo/controle:
-![grafoFluxo](https://github.com/Annagmo/engsoft/assets/85114312/95225132-2e82-4b1e-bc92-093d7df59803)
+
+![grafoFluxo](https://github.com/Annagmo/engsoft/assets/85114312/5c23e734-e4d2-4ba2-bc25-d66db8d38b65)
+
+
 https://app.creately.com/d/t2kRYfQYQIV/edit
 
 ## Caminhos independentes:
